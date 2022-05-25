@@ -14,7 +14,7 @@ public class HarmonicNumber {
     static double harmonicCal(double n)
     {
         double sum=0;
-        for(double  i=1;i<=n;i++)
+        for(double i=1; i<=n; i++)
         {
             sum=sum+(1/i);
         }
