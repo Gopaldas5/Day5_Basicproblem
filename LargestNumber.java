@@ -9,23 +9,23 @@ public class LargestNumber {
         int largest;
         int temp;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the first number:");
+        System.out.println("Enter the first number:- ");
         a = sc.nextInt();
-        System.out.println("Enter the second number:");
+        System.out.println("Enter the second number:- ");
         b = sc.nextInt();
-        System.out.println("Enter the third number:");
+        System.out.println("Enter the third number:- ");
         c = sc.nextInt();
         if (a > b) {
             if (a > c) {
-                System.out.println("First number is greatest " + a);
+                System.out.println("First number is greatest :- " + a);
             } else {
-                System.out.println("third number is the greatest" + c);
+                System.out.println("third number is the greatest :- " + c);
             }
         } else {
             if (b > c) {
-                System.out.println("Second number is the greatest " + b);
+                System.out.println("Second number is the greatest :- " + b);
             } else {
-                System.out.println("Third number is the greatest " + c);
+                System.out.println("Third number is the greatest :- " + c);
 
             }
         }
