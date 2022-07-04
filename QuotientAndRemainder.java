@@ -8,15 +8,15 @@ public class QuotientAndRemainder {
         int dividend;
         int divisor;
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the Dividend:- ");
+        System.out.print("Enter the Dividend :- ");
             dividend = scanner.nextInt();
-        System.out.print("Enter the divisor:- ");
+        System.out.print("Enter the divisor :- ");
             divisor = scanner.nextInt();
 
         int quotient = dividend / divisor;
         int remainder = dividend % divisor;
 
-        System.out.println("Quotient:- " + quotient);
-        System.out.println("Remainder:- " + remainder);
+        System.out.println("Quotient is :- " + quotient);
+        System.out.println("Remainder is :- " + remainder);
     }
 }
