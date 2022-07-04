@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PowerOf2 {
     public static void main(String[] args) {
-        System.out.print("Please enter the power:- ");
+        System.out.print("Please enter the power :- ");
         Scanner scanner = new Scanner(System.in);
         int powerOf = scanner.nextInt();
         int result = 1;
